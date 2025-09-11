@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyPattern.Interfaces.FlyBehavior
+namespace ObserverPattern.Interfaces
 {
-    internal interface FlyBehavior
+    internal interface Observer
     {
-        public void Fly();
+        void Update(float temp, float humidity, float pressure);
     }
 }
