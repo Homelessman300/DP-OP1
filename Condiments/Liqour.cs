@@ -1,17 +1,17 @@
-﻿using DecoratorPattern.Beverages;
+﻿using DecoratorPattern.Condiments;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DecoratorPattern.Condiments
+namespace DecoratorPattern.Beverages
 {
-    internal class Mocha : Beverage
+    internal class Liqour : CondimentDecorator
     {
-        public Mocha(Beverage beverage)
+        public Liqour(Beverage beverage)
         {
-            this.baseBeverage = beverage;
+            baseBeverage = beverage;
         }
 
         public override double cost()
@@ -21,7 +21,7 @@ namespace DecoratorPattern.Condiments
 
         public override string GetDescription()
         {
-            return baseBeverage.GetDescription() + ", Mocha";
+            return baseBeverage.GetDescription() + ", Liqour ";
         }
     }
 }

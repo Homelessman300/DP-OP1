@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 
 namespace DecoratorPattern.Condiments
 {
-    internal class Mocha : Beverage
+    internal class Syrup : CondimentDecorator
     {
-        public Mocha(Beverage beverage)
+        public Syrup(Beverage beverage)
         {
             this.baseBeverage = beverage;
         }
 
         public override double cost()
         {
-            return 0.20 + baseBeverage.cost();
+            return 0.15 + baseBeverage.cost();
         }
 
         public override string GetDescription()
         {
-            return baseBeverage.GetDescription() + ", Mocha";
+            return baseBeverage.GetDescription() + ", Syrup ";
         }
     }
 }

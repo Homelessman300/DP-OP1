@@ -1,15 +1,10 @@
 ﻿using DecoratorPattern.Beverages;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DecoratorPattern.Condiments
 {
-    internal class Mocha : Beverage
+    internal class MilkFoam : CondimentDecorator
     {
-        public Mocha(Beverage beverage)
+        public MilkFoam(Beverage beverage)
         {
             this.baseBeverage = beverage;
         }
@@ -21,7 +16,7 @@ namespace DecoratorPattern.Condiments
 
         public override string GetDescription()
         {
-            return baseBeverage.GetDescription() + ", Mocha";
+            return baseBeverage.GetDescription() + ", milk foam";
         }
     }
 }
