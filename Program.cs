@@ -1,34 +1,28 @@
-﻿using ObserverPattern.Displays;
+﻿using DecoratorPattern.Beverages;
+using DecoratorPattern.Condiments;
 
-namespace ObserverPattern
+namespace DecoratorPattern
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            WeatherData weatherData = new WeatherData();
+            Beverage espresso = new Espresso();
+            PrintBeverage(espresso);
 
-            // Create instances of displays and register them automatically via their constructors
-            CurrentConditionDisplay currentDisplay = new CurrentConditionDisplay(weatherData);
-            ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
-            StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
+            Beverage lungo = new Espresso();
+            lungo = new Water(lungo);
+            PrintBeverage(lungo);
 
-            Console.WriteLine("First updates ");
-            weatherData.SetMeasurements(28, 65, 30.4f);
+            Beverage americano = new Espresso();
+            americano = new Water(americano);
+            americano = new Water(americano);
+            PrintBeverage(americano);
+        }
 
-            Console.WriteLine("Second updates");
-            weatherData.SetMeasurements(29, 70, 29.2f);
-
-            Console.WriteLine("Third updates ");
-            weatherData.SetMeasurements(40, 50, 39.2f);
-
-            Console.WriteLine("Unsubscribing ForecastDisplay ");
-            weatherData.RemoveObserver(forecastDisplay);
-
-            Console.WriteLine("Fourth updates ");
-            weatherData.SetMeasurements(30, 90, 29.2f);
-
-            Console.ReadLine();
+        static void PrintBeverage(Beverage beverage)
+        {
+            Console.WriteLine(beverage.GetDescription() + " $" +  beverage.cost().ToString("#.##"));
         }
     }
 }
