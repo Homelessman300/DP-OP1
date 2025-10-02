@@ -14,6 +14,12 @@ namespace DecoratorPattern.Beverages
             this.baseBeverage = beverage;
         
         }
+
+        public Espresso(Size size)
+        {
+            Size = size;
+        }
+
         public override string GetDescription()
         {
             if (baseBeverage != null)

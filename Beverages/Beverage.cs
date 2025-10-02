@@ -19,7 +19,6 @@
         {
             get
             {
-                // If wrapped, inherit size from base beverage
                 return baseBeverage?.Size ?? size;
             }
             set
@@ -40,6 +39,17 @@
             return description;
         }
 
+        protected double GetSizeCost(double baseCost)
+        {
+            return Size switch
+            {
+                Size.TALL => baseCost,
+                Size.GRANDE => baseCost + 0.50, 
+                Size.VENDI => baseCost + 1.00, 
+                _ => baseCost
+            };
+        }
+
         public abstract double cost();
     }
-}
+}   

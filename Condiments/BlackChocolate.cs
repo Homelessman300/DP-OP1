@@ -18,5 +18,10 @@ namespace DecoratorPattern.Condiments
         {
             return baseBeverage.GetDescription() + ", black chocolate";
         }
+        public override Size Size
+        {
+            get { return baseBeverage.Size; }
+            set { baseBeverage.Size = value; }
+        }
     }
 }
