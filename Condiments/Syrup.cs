@@ -16,7 +16,23 @@ namespace DecoratorPattern.Condiments
 
         public override double cost()
         {
-            return 0.15 + baseBeverage.cost();
+            double cost = baseBeverage.cost();
+
+            // Adjust condiment price based on beverage size
+            switch (Size)
+            {
+                case Size.TALL:
+                    cost += 0.20;
+                    break;
+                case Size.GRANDE:
+                    cost += 0.30;
+                    break;
+                case Size.VENDI:
+                    cost += 0.40;
+                    break;
+            }
+
+            return cost;
         }
 
         public override string GetDescription()
