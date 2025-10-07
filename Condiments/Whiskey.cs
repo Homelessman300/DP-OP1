@@ -20,7 +20,7 @@ namespace DecoratorPattern.Condiments
                     cost += 0.20;
                     break;
                 case Size.GRANDE:
-                    cost += 0.30;
+                    cost += 0.25;
                     break;
                 case Size.VENDI:
                     cost += 0.40;

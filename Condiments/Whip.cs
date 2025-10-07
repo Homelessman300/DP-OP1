@@ -22,7 +22,7 @@ namespace DecoratorPattern.Condiments
             switch (Size)
             {
                 case Size.TALL:
-                    cost += 0.20;
+                    cost += 0.10;
                     break;
                 case Size.GRANDE:
                     cost += 0.30;
