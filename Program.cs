@@ -1,34 +1,37 @@
-﻿using ObserverPattern.Displays;
-
-namespace ObserverPattern
+﻿namespace FacadePattern
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            WeatherData weatherData = new WeatherData();
+            Amplifier amp = new Amplifier();
+            CdPlayer cdPlayer = new CdPlayer(amp);
+            DvdPlayer dvdPlayer = new DvdPlayer(amp);
+            PopcornPopper popcornPopper = new PopcornPopper();
+            Projector projector = new Projector();
+            Screen screen = new Screen();
+            TheaterLights lights = new TheaterLights();
+            Tuner tuner = new Tuner(amp);
 
-            // Create instances of displays and register them automatically via their constructors
-            CurrentConditionDisplay currentDisplay = new CurrentConditionDisplay(weatherData);
-            ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
-            StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
 
-            Console.WriteLine("First updates ");
-            weatherData.SetMeasurements(28, 65, 30.4f);
+            popcornPopper.On();
+            popcornPopper.Pop();
 
-            Console.WriteLine("Second updates");
-            weatherData.SetMeasurements(29, 70, 29.2f);
+            lights.Dim(10);
 
-            Console.WriteLine("Third updates ");
-            weatherData.SetMeasurements(40, 50, 39.2f);
+            screen.Down();
 
-            Console.WriteLine("Unsubscribing ForecastDisplay ");
-            weatherData.RemoveObserver(forecastDisplay);
+            projector.On();
+            projector.SetInput(dvdPlayer);
+            projector.WideScreenMode();
 
-            Console.WriteLine("Fourth updates ");
-            weatherData.SetMeasurements(30, 90, 29.2f);
+            amp.On();
+            amp.SetDvd(dvdPlayer);
+            amp.SetSurroundSound();
+            amp.SetVolume(5);
 
-            Console.ReadLine();
+            dvdPlayer.On();
+            dvdPlayer.Play("Die Hard");
         }
     }
 }
