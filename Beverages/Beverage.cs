@@ -15,6 +15,7 @@
         // Default size if nothing is set
         private Size size = Size.TALL;
 
+        // Size property with getter and setter
         public virtual Size Size
         {
             get
@@ -24,12 +25,15 @@
             }
             set
             {
+                // If wrapped, propagate size change to base beverage
+                // Otherwise, set local size
                 if (baseBeverage != null)
                 {
                     baseBeverage.Size = value;
                 }
                 else
                 {
+                    // Set local size
                     size = value;
                 }
             }
