@@ -37,7 +37,9 @@ namespace DecoratorPattern
             PrintBeverage(conPanna);
 
             // Cappuccino (Grande)
-            Beverage cappuccino = new Espresso { Size = Size.GRANDE };
+            Beverage cappuccino = new Espresso();
+            cappuccino.Size = Size.GRANDE;
+
             cappuccino = new SteamedMilk(cappuccino);
             cappuccino = new MilkFoam(cappuccino);
             PrintBeverage(cappuccino);

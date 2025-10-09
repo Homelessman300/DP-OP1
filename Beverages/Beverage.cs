@@ -16,10 +16,16 @@
         private Size size = Size.TALL;
 
         // Size property with getter and setter
-        public virtual Size Size
+        public Size Size
         {
             get
             {
+                //    if (baseBeverage == null) {
+                //        return size;
+                //    }
+                //    else { 
+                //        return baseBeverage.Size;
+                //    }
                 // If wrapped, inherit size from base beverage
                 return baseBeverage?.Size ?? size;
             }
