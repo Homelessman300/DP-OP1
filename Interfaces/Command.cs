@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyPattern.Interfaces.QuackBehavior
+namespace CommandPattern.Interfaces
 {
-    internal interface QuackBehavior
+    internal interface Command
     {
-        public void Quack();
+        public void Execute();
+        public void Undo();
     }
 }

@@ -1,56 +1,40 @@
-﻿using StrategyPattern.Ducks;
+﻿using CommandPattern.Classes;
+using CommandPattern.Classes.Commands;
+using CommandPattern.Interfaces;
 
-namespace StrategyPattern
+namespace CommandPattern
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Duck mallardDuck = new MallardDuck();
-            Duck redheadDuck = new RedheadDuck();
-            Duck decoyDuck = new DecoyDuck();
-            Duck rubberDuck = new RubberDuck();
-            Duck robotDuck = new RobotDuck();
+            RemoteControl remoteControl = new RemoteControl();
 
-            Console.WriteLine("Select a duck to see:");
-            Console.WriteLine("1 - Mallard Duck");
-            Console.WriteLine("2 - Redhead Duck");
-            Console.WriteLine("3 - Decoy Duck");
-            Console.WriteLine("4 - Rubber Duck");
-            Console.WriteLine("5 - Robot Duck");
-            Console.Write("Enter your choice: ");
+            /* Define and instantiate the following Vendor classes
+             * Kitchen Light : Light
+             * Livingroom Light : Light
+             * Livingroom ceiling fan : CeilingFan
+             * Garage door: Garagedoor
+             * Stereo : Stereo
+             */
+            Light kitchenLight = new Light("Kitchen");
+            Light livingRoomLight = new Light("Living Room");
+            // Define and instantiate an Off and On command for each Vendor class
 
-            string input = Console.ReadLine();
-            Duck selectedDuck;
+            /* Set the On and Off commands to the appropriate slot:
+             * 
+             * 1: Living Room light
+             * 2: Kitchen light
+             * 3: Livingroom ceiling fan
+             * 4: Garage door
+             * 5: Stereo
+             */
 
-            switch (input)
-            {
-                case "1": selectedDuck = mallardDuck; break;
-                case "2": selectedDuck = redheadDuck; break;
-                case "3": selectedDuck = decoyDuck; break;
-                case "4": selectedDuck = rubberDuck; break;
-                case "5": selectedDuck = robotDuck; break;
-                default:
-                    Console.WriteLine("Invalid choice! Defaulting to Mallard Duck.");
-                    selectedDuck = mallardDuck;
-                    break;
-            }
+            Console.WriteLine(remoteControl);
 
-            // Standaard gedrag
-            Console.WriteLine("\n--- Default behavior ---");
-            selectedDuck.Display();
-            selectedDuck.PerformQuack();
-            selectedDuck.PerformFly();
+            // Test the pressing of Buttons here. Don't forget to test the Undo button
 
-            // Dynamisch gedrag aanpassen
-            Console.WriteLine("\n--- Changing behaviors dynamically ---");
-            selectedDuck.SetQuackBehavior(new MuteQuack());   // Stel in dat de eend stil is
-            selectedDuck.SetFlyBehavior(new FlyNoWay());// Geef de eend raketkracht
 
-            selectedDuck.PerformQuack(); // -> moet nu niets/anders doen
-            selectedDuck.PerformFly();   // -> moet nu raket vliegen doen
-
-            Console.ReadLine();
         }
     }
 }
