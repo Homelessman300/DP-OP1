@@ -10,31 +10,59 @@ namespace CommandPattern
         {
             RemoteControl remoteControl = new RemoteControl();
 
-            /* Define and instantiate the following Vendor classes
-             * Kitchen Light : Light
-             * Livingroom Light : Light
-             * Livingroom ceiling fan : CeilingFan
-             * Garage door: Garagedoor
-             * Stereo : Stereo
-             */
+            // Vendor Classes 
             Light kitchenLight = new Light("Kitchen");
             Light livingRoomLight = new Light("Living Room");
-            // Define and instantiate an Off and On command for each Vendor class
+            CeilingFan livingRoomCeilingFan = new CeilingFan("Living Room");
+            GarageDoor garageDoor = new GarageDoor(new Light("Garagedoor"));
+            Stereo stereo = new Stereo();
 
-            /* Set the On and Off commands to the appropriate slot:
-             * 
-             * 1: Living Room light
-             * 2: Kitchen light
-             * 3: Livingroom ceiling fan
-             * 4: Garage door
-             * 5: Stereo
-             */
+            // Command Objects 
+            // Lights
+            LightOnCommand livingRoomLightOn = new LightOnCommand(livingRoomLight);
+            LightOffCommand livingRoomLightOff = new LightOffCommand(livingRoomLight);
+            LightOnCommand kitchenLightOn = new LightOnCommand(kitchenLight);
+            LightOffCommand kitchenLightOff = new LightOffCommand(kitchenLight);
 
+            // Ceiling Fan
+            CeilingFanLowCommand ceilingFanLow = new CeilingFanLowCommand(livingRoomCeilingFan)
+            CeilingFanOffCommand ceilingFanOff = new CeilingFanOffCommand(livingRoomCeilingFan);
+
+            // Garage Door
+            GarageDoorUpCommand garageDoorOpen = new GarageDoorUpCommand(garageDoor);
+            GarageDoorDownCommand garageDoorClose = new GarageDoorDownCommand(garageDoor);
+
+            // Stereo
+            StereoOnWithCdCommand stereoOn = new StereoOnWithCdCommand(stereo);
+            StereoOffCommand stereoOff = new StereoOffCommand(stereo);
+
+            // Assign Commands to RemoteControl Slots
+            remoteControl.SetCommand(0, livingRoomLightOn, livingRoomLightOff);
+            remoteControl.SetCommand(1, kitchenLightOn, kitchenLightOff);
+            remoteControl.SetCommand(2, ceilingFanLow, ceilingFanOff);
+            remoteControl.SetCommand(3, garageDoorOpen, garageDoorClose);
+            remoteControl.SetCommand(4, stereoOn, stereoOff);
+
+            // Print the remote layout
             Console.WriteLine(remoteControl);
 
-            // Test the pressing of Buttons here. Don't forget to test the Undo button
+            // Test Buttons 
+            remoteControl.OnButtonWasPushed(0);
+            remoteControl.OffButtonWasPushed(0);
 
+            remoteControl.OnButtonWasPushed(1);
+            remoteControl.OffButtonWasPushed(1);
 
+            remoteControl.OnButtonWasPushed(2);
+            remoteControl.OffButtonWasPushed(2);
+
+            remoteControl.OnButtonWasPushed(3);
+            remoteControl.OffButtonWasPushed(3);
+
+            remoteControl.OnButtonWasPushed(4);
+            remoteControl.OffButtonWasPushed(4);
+
+            Console.ReadKey();
         }
     }
 }
