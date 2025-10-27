@@ -20,18 +20,6 @@ namespace CommandPattern.Classes.Commands
         {
             prevSpeed = ceilingFan.GetSpeed();
             ceilingFan.Medium();
-            if (ceilingFan.GetSpeed() == ceilingFan.HIGH)
-            {
-                prevSpeed = ceilingFan.LOW;
-            }
-            else if (ceilingFan.GetSpeed() == ceilingFan.MEDIUM)
-            {
-                prevSpeed = ceilingFan.HIGH;
-            }
-            else if (ceilingFan.GetSpeed() == ceilingFan.LOW)
-            {
-                prevSpeed = ceilingFan.MEDIUM;
-            }
         }
 
         public void Undo()

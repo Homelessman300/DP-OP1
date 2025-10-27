@@ -14,24 +14,13 @@ namespace CommandPattern.Classes.Commands
 
         public CeilingFanLowCommand(CeilingFan ceilingFan)
         {
+            this.ceilingFan = ceilingFan;
         }
 
         public void Execute()
         {
             prevSpeed = ceilingFan.GetSpeed();
             ceilingFan.Low();
-            if (ceilingFan.GetSpeed() == ceilingFan.HIGH)
-            {
-                prevSpeed = ceilingFan.LOW;
-            }
-            else if (ceilingFan.GetSpeed() == ceilingFan.MEDIUM)
-            {
-                prevSpeed = ceilingFan.HIGH;
-            }
-            else if (ceilingFan.GetSpeed() == ceilingFan.LOW)
-            {
-                prevSpeed = ceilingFan.MEDIUM;
-            }
 
         }
 

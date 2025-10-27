@@ -23,8 +23,8 @@ namespace CommandPattern.Classes
         // This method must set the On and Off command to the slot provided
         public void SetCommand(int slot, Command onCommand, Command offCommand)
         {
-            onCommand = onCommands[slot];
-            offCommand = offCommands[slot];
+            onCommands[slot] = onCommand;
+            offCommands[slot] = offCommand;
         }
 
         // This method must call the OnCommand.Execute() method of the slot provided
@@ -41,6 +41,11 @@ namespace CommandPattern.Classes
             offCommands[slot].Execute();
             undoCommand = offCommands[slot];
 
+        }
+        // This method must call the Undo() method of the last executed command
+        public void UndoButtonWasPushed()
+        {
+            undoCommand.Undo();
         }
         // Overwritten ToString() to print out each slot and its corresponding command.
         public override string ToString()

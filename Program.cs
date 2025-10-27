@@ -16,6 +16,7 @@ namespace CommandPattern
             CeilingFan livingRoomCeilingFan = new CeilingFan("Living Room");
             GarageDoor garageDoor = new GarageDoor(new Light("Garagedoor"));
             Stereo stereo = new Stereo();
+            
 
             // Command Objects 
             // Lights
@@ -25,7 +26,7 @@ namespace CommandPattern
             LightOffCommand kitchenLightOff = new LightOffCommand(kitchenLight);
 
             // Ceiling Fan
-            CeilingFanLowCommand ceilingFanLow = new CeilingFanLowCommand(livingRoomCeilingFan)
+            CycleCeilingFanCommand ceilingFan =  new CycleCeilingFanCommand (livingRoomCeilingFan);
             CeilingFanOffCommand ceilingFanOff = new CeilingFanOffCommand(livingRoomCeilingFan);
 
             // Garage Door
@@ -39,7 +40,7 @@ namespace CommandPattern
             // Assign Commands to RemoteControl Slots
             remoteControl.SetCommand(0, livingRoomLightOn, livingRoomLightOff);
             remoteControl.SetCommand(1, kitchenLightOn, kitchenLightOff);
-            remoteControl.SetCommand(2, ceilingFanLow, ceilingFanOff);
+            remoteControl.SetCommand(2, ceilingFan, ceilingFanOff);
             remoteControl.SetCommand(3, garageDoorOpen, garageDoorClose);
             remoteControl.SetCommand(4, stereoOn, stereoOff);
 
@@ -54,6 +55,10 @@ namespace CommandPattern
             remoteControl.OffButtonWasPushed(1);
 
             remoteControl.OnButtonWasPushed(2);
+            remoteControl.OnButtonWasPushed(2);
+            remoteControl.OnButtonWasPushed(2);
+            remoteControl.UndoButtonWasPushed();
+
             remoteControl.OffButtonWasPushed(2);
 
             remoteControl.OnButtonWasPushed(3);
@@ -61,6 +66,9 @@ namespace CommandPattern
 
             remoteControl.OnButtonWasPushed(4);
             remoteControl.OffButtonWasPushed(4);
+
+            remoteControl.UndoButtonWasPushed();
+            
 
             Console.ReadKey();
         }
