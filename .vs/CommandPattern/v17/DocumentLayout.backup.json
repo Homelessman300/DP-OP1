@@ -1,0 +1,406 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\remotecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\remotecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\cycleceilingfancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\cycleceilingfancommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\ceilingfanoffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\ceilingfanoffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\stereooffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\stereooffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\stereoonwithradiocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\stereoonwithradiocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\stereoonwithdvdcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\stereoonwithdvdcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\stereoonwithcdcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\stereoonwithcdcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\stereo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\stereo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\ceilingfanhighcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\ceilingfanhighcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\ceilingfan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\ceilingfan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\ceilingfanmediumcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\ceilingfanmediumcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\ceilingfanlowcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\ceilingfanlowcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\nocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\nocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\macrocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\macrocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\interfaces\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:interfaces\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\garagedoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\garagedoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\lightoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\lightoncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\garagedoorupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\garagedoorupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\garagedoordowncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\garagedoordowncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\classes\\commands\\lightoffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E934A192-C4B1-AA96-8D7E-AEBCD8177A7C}|CommandPattern.csproj|solutionrelative:classes\\commands\\lightoffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAACgVAAAAAAAAAAD4vxEVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-10-27T13:42:18.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StereoOnWithCdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\StereoOnWithCdCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\StereoOnWithCdCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\StereoOnWithCdCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\StereoOnWithCdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T13:23:23.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StereoOnWithDvdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\StereoOnWithDvdCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\StereoOnWithDvdCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\StereoOnWithDvdCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\StereoOnWithDvdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T13:23:19.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StereoOnWithRadioCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\StereoOnWithRadioCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\StereoOnWithRadioCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\StereoOnWithRadioCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\StereoOnWithRadioCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T13:23:13.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CycleCeilingFanCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\CycleCeilingFanCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\CycleCeilingFanCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\CycleCeilingFanCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\CycleCeilingFanCommand.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAkwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T13:09:46.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StereoOffCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\StereoOffCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\StereoOffCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\StereoOffCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\StereoOffCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:25:07.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NoCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\NoCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\NoCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\NoCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\NoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:24:54.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MacroCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\MacroCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\MacroCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\MacroCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\MacroCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:24:43.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GarageDoorUpCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\GarageDoorUpCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\GarageDoorUpCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\GarageDoorUpCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\GarageDoorUpCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:24:30.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GarageDoorDownCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\GarageDoorDownCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\GarageDoorDownCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\GarageDoorDownCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\GarageDoorDownCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:24:22.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CeilingFanOffCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\CeilingFanOffCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\CeilingFanOffCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\CeilingFanOffCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\CeilingFanOffCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:23:27.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CeilingFanMediumCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\CeilingFanMediumCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\CeilingFanMediumCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\CeilingFanMediumCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\CeilingFanMediumCommand.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:23:17.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CeilingFanHighCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\CeilingFanHighCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\CeilingFanHighCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\CeilingFanHighCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\CeilingFanHighCommand.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:23:04.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CeilingFanLowCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\CeilingFanLowCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\CeilingFanLowCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\CeilingFanLowCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\CeilingFanLowCommand.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:18:00.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LightOffCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\LightOffCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\LightOffCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\LightOffCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\LightOffCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:14:35.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LightOnCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\LightOnCommand.cs",
+              "RelativeDocumentMoniker": "Classes\\Commands\\LightOnCommand.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Commands\\LightOnCommand.cs",
+              "RelativeToolTip": "Classes\\Commands\\LightOnCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:13:59.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Interfaces\\Command.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Command.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Interfaces\\Command.cs",
+              "RelativeToolTip": "Interfaces\\Command.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:29:42.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Light.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Light.cs",
+              "RelativeDocumentMoniker": "Classes\\Light.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Light.cs",
+              "RelativeToolTip": "Classes\\Light.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:32:27.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GarageDoor.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\GarageDoor.cs",
+              "RelativeDocumentMoniker": "Classes\\GarageDoor.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\GarageDoor.cs",
+              "RelativeToolTip": "Classes\\GarageDoor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:32:26.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CeilingFan.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\CeilingFan.cs",
+              "RelativeDocumentMoniker": "Classes\\CeilingFan.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\CeilingFan.cs",
+              "RelativeToolTip": "Classes\\CeilingFan.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:29:57.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RemoteControl.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\RemoteControl.cs",
+              "RelativeDocumentMoniker": "Classes\\RemoteControl.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\RemoteControl.cs",
+              "RelativeToolTip": "Classes\\RemoteControl.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:29:46.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Stereo.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Stereo.cs",
+              "RelativeDocumentMoniker": "Classes\\Stereo.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Classes\\Stereo.cs",
+              "RelativeToolTip": "Classes\\Stereo.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:29:44.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAADIAAAAAAAAAAAArwEUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:22:28.366Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

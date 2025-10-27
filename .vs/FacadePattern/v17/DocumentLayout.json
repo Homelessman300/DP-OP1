@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\hometheaterfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|solutionrelative:hometheaterfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\dvdplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|solutionrelative:dvdplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|solutionrelative:screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\lawofdementer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|solutionrelative:lawofdementer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\popcornpopper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|solutionrelative:popcornpopper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|c:\\users\\edika\\onedrive - roc nijmegen\\leerjaar 4\\dp\\opdracht\\cdplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D450F7-A855-8431-97D3-8B6320A26D61}|FacadePattern.csproj|solutionrelative:cdplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Screen.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Screen.cs",
+              "RelativeDocumentMoniker": "Screen.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Screen.cs",
+              "RelativeToolTip": "Screen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:24:42.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PopcornPopper.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\PopcornPopper.cs",
+              "RelativeDocumentMoniker": "PopcornPopper.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\PopcornPopper.cs",
+              "RelativeToolTip": "PopcornPopper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:13:15.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LawOfDementer.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\LawOfDementer.cs",
+              "RelativeDocumentMoniker": "LawOfDementer.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\LawOfDementer.cs",
+              "RelativeToolTip": "LawOfDementer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:13:13.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CdPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\CdPlayer.cs",
+              "RelativeDocumentMoniker": "CdPlayer.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\CdPlayer.cs",
+              "RelativeToolTip": "CdPlayer.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:13:04.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeTheaterFacade.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\HomeTheaterFacade.cs",
+              "RelativeDocumentMoniker": "HomeTheaterFacade.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\HomeTheaterFacade.cs",
+              "RelativeToolTip": "HomeTheaterFacade.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:09:22.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:08:21.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DvdPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\DvdPlayer.cs",
+              "RelativeDocumentMoniker": "DvdPlayer.cs",
+              "ToolTip": "C:\\Users\\Edika\\OneDrive - ROC Nijmegen\\Leerjaar 4\\DP\\Opdracht\\DvdPlayer.cs",
+              "RelativeToolTip": "DvdPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:08:14.958Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
