@@ -34,7 +34,7 @@ namespace CommandPattern
             GarageDoorDownCommand garageDoorClose = new GarageDoorDownCommand(garageDoor);
 
             // Stereo
-            StereoOnWithCdCommand stereoOn = new StereoOnWithCdCommand(stereo);
+            StereoCycleWithRadioCommand stereoOn = new StereoCycleWithRadioCommand(stereo);
             StereoOffCommand stereoOff = new StereoOffCommand(stereo);
 
             // Assign Commands to RemoteControl Slots
@@ -67,7 +67,10 @@ namespace CommandPattern
             remoteControl.OffButtonWasPushed(3);
 
             remoteControl.OnButtonWasPushed(4);
-            remoteControl.OffButtonWasPushed(4);    
+            remoteControl.OffButtonWasPushed(4);
+            remoteControl.OnButtonWasPushed(4);
+            remoteControl.OnButtonWasPushed(4);
+            remoteControl.OnButtonWasPushed(4);
             remoteControl.UndoButtonWasPushed();
             remoteControl.UndoButtonWasPushed();
             remoteControl.UndoButtonWasPushed();
