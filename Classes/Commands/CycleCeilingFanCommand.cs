@@ -5,8 +5,10 @@ namespace CommandPattern.Classes.Commands
 {
     internal class CycleCeilingFanCommand : Command
     {
-        private CeilingFan ceilingFan;
-        private int prevSpeed;
+        private readonly CeilingFan ceilingFan;
+
+        // Stack to keep track of previous speeds for multiple undos
+        private Stack<int> history = new Stack<int>();
 
         public CycleCeilingFanCommand(CeilingFan ceilingFan)
         {
@@ -15,7 +17,8 @@ namespace CommandPattern.Classes.Commands
 
         public void Execute()
         {
-            prevSpeed = ceilingFan.GetSpeed();
+            int prevSpeed = ceilingFan.GetSpeed();
+            history.Push(prevSpeed);
 
             // Cycle to the next state
             switch (prevSpeed)
@@ -38,22 +41,30 @@ namespace CommandPattern.Classes.Commands
 
         public void Undo()
         {
-            // Return to the previous state
-            if (prevSpeed == ceilingFan.HIGH)
+            if (history.Count > 0)
             {
-                ceilingFan.High();
+                int prevSpeed = history.Pop();
+
+                if (prevSpeed == ceilingFan.HIGH)
+                {
+                    ceilingFan.High();
+                }
+                else if (prevSpeed == ceilingFan.MEDIUM)
+                {
+                    ceilingFan.Medium();
+                }
+                else if (prevSpeed == ceilingFan.LOW)
+                {
+                    ceilingFan.Low();
+                }
+                else if (prevSpeed == ceilingFan.OFF)
+                {
+                    ceilingFan.Off();
+                }
             }
-            else if (prevSpeed == ceilingFan.MEDIUM)
+            else
             {
-                ceilingFan.Medium();
-            }
-            else if (prevSpeed == ceilingFan.LOW)
-            {
-                ceilingFan.Low();
-            }
-            else if (prevSpeed == ceilingFan.OFF)
-            {
-                ceilingFan.Off();
+                Console.WriteLine("Nothing to undo for ceiling fan.");
             }
         }
     }

@@ -50,6 +50,7 @@ namespace CommandPattern
             // Test Buttons 
             remoteControl.OnButtonWasPushed(0);
             remoteControl.OffButtonWasPushed(0);
+            remoteControl.UndoButtonWasPushed();
 
             remoteControl.OnButtonWasPushed(1);
             remoteControl.OffButtonWasPushed(1);
@@ -58,6 +59,7 @@ namespace CommandPattern
             remoteControl.OnButtonWasPushed(2);
             remoteControl.OnButtonWasPushed(2);
             remoteControl.UndoButtonWasPushed();
+            remoteControl.UndoButtonWasPushed();
 
             remoteControl.OffButtonWasPushed(2);
 
@@ -65,10 +67,15 @@ namespace CommandPattern
             remoteControl.OffButtonWasPushed(3);
 
             remoteControl.OnButtonWasPushed(4);
-            remoteControl.OffButtonWasPushed(4);
-
+            remoteControl.OffButtonWasPushed(4);    
             remoteControl.UndoButtonWasPushed();
-            
+            remoteControl.UndoButtonWasPushed();
+            remoteControl.UndoButtonWasPushed();
+            remoteControl.UndoButtonWasPushed();
+            remoteControl.UndoButtonWasPushed();
+            remoteControl.UndoButtonWasPushed();
+            remoteControl.UndoButtonWasPushed();
+            remoteControl.UndoButtonWasPushed();
 
             Console.ReadKey();
         }

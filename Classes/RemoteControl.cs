@@ -1,5 +1,7 @@
 ﻿using CommandPattern.Classes.Commands;
 using CommandPattern.Interfaces;
+using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace CommandPattern.Classes
@@ -8,16 +10,17 @@ namespace CommandPattern.Classes
     {
         Command[] onCommands = new Command[7];
         Command[] offCommands = new Command[7];
-        Command undoCommand;
+        Stack<Command> undoHistory = new Stack<Command>();
+        // Stack to store executed commands for multiple undos
+
         public RemoteControl()
         {
             Command noCommand = new NoCommand();
             for (int i = 0; i < onCommands.Length; i++)
             {
-                onCommands[i] = new NoCommand();
-                offCommands[i] = new NoCommand();
+                onCommands[i] = noCommand;
+                offCommands[i] = noCommand;
             }
-            undoCommand = noCommand;
         }
 
         // This method must set the On and Off command to the slot provided
@@ -31,22 +34,31 @@ namespace CommandPattern.Classes
         public void OnButtonWasPushed(int slot)
         {
             onCommands[slot].Execute();
-            undoCommand = onCommands[slot];
-
+            // Push the command instance for undo
+            undoHistory.Push(onCommands[slot]);
         }
 
         // This method must call the OffCommand.Execute() method of the slot provided
         public void OffButtonWasPushed(int slot)
         {
             offCommands[slot].Execute();
-            undoCommand = offCommands[slot];
-
+            undoHistory.Push(offCommands[slot]);
         }
+
         // This method must call the Undo() method of the last executed command
         public void UndoButtonWasPushed()
         {
-            undoCommand.Undo();
+            if (undoHistory.Count > 0)
+            {
+                Command lastCommand = undoHistory.Pop();
+                lastCommand.Undo();
+            }
+            else
+            {
+                Console.WriteLine("Nothing to undo.");
+            }
         }
+
         // Overwritten ToString() to print out each slot and its corresponding command.
         public override string ToString()
         {
